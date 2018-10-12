@@ -1,0 +1,126 @@
+@charset "utf-8";
+/******
+*description:重置与基础样式
+*author:Dwade
+*create time:2018-07-28 
+*update time:2013-07-28
+*******/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{margin:0;padding:0;color:#222;line-height:24px; font-size:12px;font-family:Tahoma,Arial,"宋体"}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0px;margin:0px;}
+label {cursor:pointer}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+address,caption,cite,code,em,b { font-style:normal; font-weight:normal}
+fieldset,img{ border:0;}
+table, th, td {border-collapse: collapse;border-spacing: 0;}
+a{ text-decoration:none;color:#333;}
+a:hover{ text-decoration:underline;}
+/*文字 文字对齐方式*/
+.tc{text-align:center;}
+.tl{text-align:left;} 
+.tr{text-align:right;}
+.fb{font-weight:bold;}
+/*字体 颜色*/
+.blue   { color:#316eaf}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#f60}
+.red    { color:#f00}
+.white	{ color:#fff}
+span{display: inline-block;}
+
+/*字体大小*/
+.fz12{font-size: 12px;}
+.fz14{font-size: 14px;}
+.fz16{font-size: 16px;}
+.fz18{font-size: 18px;}
+.fz20{font-size: 20px;}
+.fz22{font-size: 22px;}
+
+ 
+/*--图层居中显示--*/
+.topNavInner,.header,.nav,.layout,.wrapper,.footer,.banner{ width:980px; margin:0 auto}
+
+/*浮动 位置*/
+.fl  {float:left;}
+.fr  {float:right;}
+.cl  {clear:both;}
+.mt5 { margin-top:5px}
+.mt10{ margin-top:10px}
+.mb5 {margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.clearfix:after{content: "";display: table;clear: both;}
+.clearfix{*zoom:1;}/*IE6 和 IE7 都不支持 :after 这个伪类*/
+.yc{display: none;}
+.fl{float: left;}
+.fr{float: right;}
+.qc{clear: both;}
+
+/*头部*/
+header{width: 100%;height: 100%}
+.top{ padding-left: 1%;padding-right: 1%; width: 100%;height: 40px;line-height: 45px;text-align: center;background-color: #00bcd4;}
+.top input{width: 90%;border: none;color: #eee;font-size: 12px;}
+.srk{border-radius: 4px; width: 80%;background: #fff;height: 20px;text-align: center;line-height: 20px;}
+
+
+/*幻灯片*/
+.hdp{width: 100%;height: 100%;position: relative;}
+.flash{width: 100%;overflow: hidden;height: 10%;}
+.flash img{width: 100%;height: 100%}
+.hdp ul li{ margin-right: 10px; width: 10px;height: 10px;border-radius: 50%;background-color: #999;}
+.hdp .yd{position: absolute;left: 45%;bottom: 5%;}
+.hdp .on{background-color: #f90}
+
+
+
+/*导航*/
+.nav{display: flex;width: 100%;flex-wrap:wrap;background-color: #fff;}
+.sbox1{width: 25%;text-align: center;}
+
+/*定位行*/
+.gps{ width: 100%;display: flex;height:20%;background-color: #fff;}
+.gps div{padding:20px;flex: 1;text-align: center;border: 1px solid #eee;}
+
+/*广告行*/
+section{width: 100%;margin-top: 1%; /*background-color: #fff;*/}
+.bigbox1{display: flex;width: 100%;text-align: center;background-color: #fff;}
+.smallbox1{flex: 1;border: 1px solid #eee;}
+
+/*图片分栏*/
+.bigbox2{margin-top: 1%;background-color: #fff;padding: 1%;width: 100%; }
+.bigbox2 .qc .fl{margin-right: 1%}
+.dhz{width: 100%;height: 150px;/*overflow-x: scroll;*/overflow: hidden; }
+
+.bigbox3{margin-top: 2%;background-color: #fff;padding: 1%;border-bottom: 1px solid #eee;}
+.smallbox3{position: relative; margin-bottom: 1%;}
+.smallbox3 .jd{margin-left:20px;margin-top:10px}
+.pl{margin-left:5px;margin-top: 20px}
+.jg{ margin-left:5px;margin-top:20px}
+.adress{position: absolute;top: 80%;right: 1%}
+.smallbox3 img{width: 150px;}
+
+/*更多*/
+.more{width: 100%;text-align: center;height: 40px;line-height: 40px;background-color: #fff}
+
+/*详情*/
+.qnr{width: 100%;height: 40px;text-align: left;line-height: 30px;padding: 5px;}
+.xq-img{width: 100%}
+.font1{width: 100%;height: 40px;line-height: 15px;padding: 5px;background-color: #fff;}
+.font2{width: 100%;height: 30px;line-height: 20px;padding: 5px;background-color: #fff;margin-top: 1%}
+
+
+
+/*底部*/
+.ffont1 a{text-decoration: underline;color: #999;}
+.ffont1{width: 100%;height: 30px;line-height: 30px;text-align: center;}
+
+.ffont2 a{text-decoration: none;color: blue;}
+.ffont2{width: 100%;height: 30px;line-height: 30px;padding-left: 1%;border-bottom:1px solid #999; }
+
+.ffont3 a{text-decoration: underline;color: #999;}
+.ffont3{width: 100%;height: 30px;line-height: 30px;text-align: center;}
+.ffont3 .ys{color: blue}
+
+.ffont4{width: 100%;text-align: center;color: #999;}

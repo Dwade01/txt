@@ -1,0 +1,89 @@
+@charset "utf-8";
+/******
+*description:重置与基础样式
+*author:Dwade
+*create time:2018-07-28 
+*update time:2013-07-28
+*******/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{margin:0;padding:0;color:#222;line-height:24px; font-size:12px;font-family:Tahoma,Arial,"宋体"}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0px;margin:0px;}
+label {cursor:pointer}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+address,caption,cite,code,em,b { font-style:normal; font-weight:normal}
+fieldset,img{ border:0;}
+table, th, td {border-collapse: collapse;border-spacing: 0;}
+a{ text-decoration:none;color:#333;}
+a:hover{ text-decoration:underline;}
+/*文字 文字对齐方式*/
+.tc{text-align:center;}
+.tl{text-align:left;} 
+.tr{text-align:right;}
+.fb{font-weight:bold;}
+/*字体 颜色*/
+.blue   { color:#316eaf}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#f60}
+.red    { color:#f00}
+.white	{ color:#fff}
+span{display: inline-block;}
+
+/*字体大小*/
+.fz12{font-size: 12px;}
+.fz14{font-size: 14px;}
+.fz16{font-size: 16px;}
+.fz18{font-size: 18px;}
+.fz20{font-size: 20px;}
+.fz22{font-size: 22px;}
+
+ 
+/*--图层居中显示--*/
+.topNavInner,.header,.nav,.layout,.wrapper,.footer,.banner{ width:980px; margin:0 auto}
+
+/*浮动 位置*/
+.fl  {float:left;}
+.fr  {float:right;}
+.cl  {clear:both;}
+.mt5 { margin-top:5px}
+.mt10{ margin-top:10px}
+.mb5 {margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.clearfix:after{content: "";display: table;clear: both;}
+.clearfix{*zoom:1;}/*IE6 和 IE7 都不支持 :after 这个伪类*/
+.yc{display: none;}
+
+/*头部*/
+header{width: 100%;background-color:#18a9b9; }
+.top{width: 100%;padding: 1%;position: relative;}
+.dl{position: absolute;left: 48%;}
+.zc{position: absolute;right: 1%;}
+
+.tab{display: flex;width: 100%;padding: 1%;}
+.tab div{ padding: 5px;text-align: center;flex: 1;border: 1px solid #fff;}
+.tab .s1{border-top-left-radius: 4px;border-bottom-left-radius:4px }
+.tab .s2{border-top-right-radius: 4px;border-bottom-right-radius:4px}
+.on{background-color: #fff;color: #18a9b9;}
+
+/*输入框*/
+ .srk{width: 100%;padding: 1%;margin-top: 1%}
+ .phone{width: 100% padding: 1%;background-color: #fff;height: 40px;line-height: 40px;}
+ .phone input{margin-left: 1%;width: 70%;border: none;height: 30px;}
+
+ .yzm{width: 100% padding: 1%;background-color: #fff;margin-top: 1%;height: 40px;line-height: 40px;}
+ .yzm input{margin-left: 1%;width: 60%;border: none;height: 30px;}
+ .yzm .button{border-radius: 4px; border: 1px solid #999;height: 30px;line-height: 30px;text-align: center; margin-left: 1%;width: 20%;background-color: #fff;}
+
+.dlan{margin-top: 1%; width: 100%;height: 40px;line-height: 40px;text-align: center;background-color: #85d1db;border-radius: 4px;}
+.find{margin-right: 1%}
+.on2{background-color:#18a9b9; }
+ .yzm .on3{border: 1px solid #18a9b9;color: #18a9b9}
+/*底部*/
+
+footer{position: absolute;bottom: 0;left: 0;width: 100%}
+.banben{ width: 100%;height: 40px;line-height: 40px;border-bottom:1px solid #999;text-align: center;display: flex;}
+.banben span{flex: 1;}
+
+.xia{text-align: center;width: 100%;}

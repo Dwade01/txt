@@ -1,0 +1,97 @@
+@charset "utf-8";
+/******
+*description:重置与基础样式
+*author:Dwade
+*create time:2018-07-28 
+*update time:2013-07-28
+*******/
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{margin:0;padding:0;color:#222;line-height:24px; font-size:12px;font-family:Tahoma,Arial,"宋体"}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0px;margin:0px;}
+label {cursor:pointer}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+ul,ol{list-style:none;}
+address,caption,cite,code,em,b { font-style:normal; font-weight:normal}
+fieldset,img{ border:0;}
+table, th, td {border-collapse: collapse;border-spacing: 0;}
+a{ text-decoration:none;color:#333;}
+a:hover{ text-decoration:underline;}
+/*文字 文字对齐方式*/
+.tc{text-align:center;}
+.tl{text-align:left;} 
+.tr{text-align:right;}
+.fb{font-weight:bold;}
+/*字体 颜色*/
+.blue   { color:#316eaf}
+.brown  { color:#666}
+.gray   { color:#999}
+.green  { color:#2d9b01}
+.orange { color:#f60}
+.red    { color:#f00}
+.white	{ color:#fff}
+span{display: inline-block;}
+
+/*字体大小*/
+.fz12{font-size: 12px;}
+.fz14{font-size: 14px;}
+.fz16{font-size: 16px;}
+.fz18{font-size: 18px;}
+.fz20{font-size: 20px;}
+.fz22{font-size: 22px;}
+
+ 
+/*--图层居中显示--*/
+.topNavInner,.header,.nav,.layout,.wrapper,.footer,.banner{ width:980px; margin:0 auto}
+
+/*浮动 位置*/
+.fl  {float:left;}
+.fr  {float:right;}
+.cl  {clear:both;}
+.mt5 { margin-top:5px}
+.mt10{ margin-top:10px}
+.mb5 {margin-bottom:5px;}
+.mb10{margin-bottom:10px;}
+.clearfix:after{content: "";display: table;clear: both;}
+.clearfix{*zoom:1;}/*IE6 和 IE7 都不支持 :after 这个伪类*/
+.yc{display: none;}
+
+
+/*头部*/
+/*body { max-width: 640px;margin: 0 auto;}*/
+        
+header{margin: 0 auto;width:100%;overflow: hidden; height: 184px;position: relative;}
+
+.oimg{/*width: 4600px;*//*overflow: hidden;*/ position: absolute;height: 100%;}
+.oimg img{width: 100%;height: 100% }
+header ul li{margin-right: 10px; width: 10px;height: 10px;border-radius: 50%;background-color: #999;}
+.yd{position: absolute;left: 45%;bottom: 5%;}
+.on{background-color: #f90;}
+
+/*内容栏*/
+section{box-sizing: border-box; padding: 5px;width:100%;border: 1px solid #eee;}
+/*盒子一*/
+.Bb1{background-color: #ff5555;height: 100px;color: #fff;flex: 1;text-align: center;line-height: 40px;}
+.Bbox1{display: flex;border: 1px solid #eee;}
+.Bb1 div{ border: 1px solid #eee;width: 100%;height: 49%;text-align: center;line-height: 50px;font-size: 16px;}
+.zc div{width: 100%;height: 40%;line-height: 40px; border-bottom: none;}
+.Bb1 .ys{border-bottom: none;}
+
+/*盒子二*/
+.Bbox2{margin-top: 5px;display: flex;}
+.Bbox2 .Bb1{background-color:#00a7f7 ;height: 100px;color: #fff;flex: 1;text-align: center;line-height: 40px;}
+
+
+/*盒子三*/
+.Bbox3{margin-top: 5px;display: flex;}
+.Bbox3 .Bb1{background-color:#7cb832;height: 100px;color: #fff;flex: 1;text-align: center;line-height: 40px;}
+
+/*盒子四*/
+.Bbox4{margin-top: 5px;display: flex;}
+.Bbox4 .Bb1{ border: 1px solid #eee;background-color:#ff9900;height: 50px;color: #fff;flex: 1;text-align: center;line-height: 50px;font-size: 16px;}
+.Bbox4 .dy{border-right: none;}
+
+
+/*底部*/
+footer{background-color: #eee;}
+.father{background-color: #fff;width: 100%;padding: 20px;display: flex; columns:4;}
+.tu1{width: 40px;height: 30px; background:url(../img/index/5.png);background-position: -67px -37px;}
